@@ -494,6 +494,7 @@ h6 {
 p {
 	margin: 0 0 1.5em;
 	padding: 0;
+	line-height: 2.5;
 }
 
 dfn,
@@ -1169,7 +1170,7 @@ td:last-child {
 --------------------------------------------------------------*/
 
 a {
-	color: #222;
+	color: #6b4127;
 	text-decoration: none;
 }
 
@@ -1337,8 +1338,10 @@ a:hover .nav-title,
 }
 
 .navigation-top a {
+	margin-left: 30px;
+	font-size: 16px;
 	color: #9D5F38;
-	font-weight: 600;
+	font-weight: 900;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
 }
@@ -1910,9 +1913,9 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .page .panel-content .entry-title,
 .page-title,
 body.page:not(.twentyseventeen-front-page) .entry-title {
-	color: #222;
+	color: #6b4127;
 	font-size: 14px;
-	font-size: 0.875rem;
+	font-size: 1rem;
 	font-weight: 800;
 	letter-spacing: 0.14em;
 	text-transform: uppercase;
@@ -1959,8 +1962,8 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 .pagination,
 .comments-pagination {
 	border-top: 1px solid #eee;
-	font-size: 14px;
 	font-size: 0.875rem;
+	font-size: 140px;
 	font-weight: 800;
 	padding: 2em 0 3em;
 	text-align: center;
