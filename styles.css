@@ -4363,3 +4363,25 @@ p > object:only-child {
 		padding: 0;
 	}
 }
+
+/* laertes effect */
+
+.effect.laertes {
+
+  a {
+    transition: all 0.2s linear 0s;
+
+    i {
+      transition: all 0.2s linear 0s;
+    }
+
+    &:hover {
+      border-radius: 50%/20%;
+
+      i {
+        transform: scale(1.1);
+        text-shadow: 0 0 12px rgba($basic-dark-color, 0.6);
+      }
+    }
+  }
+}
