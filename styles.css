@@ -4585,6 +4585,33 @@ textarea {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
+  padding: 2.5px;
+}
+
+img:hover {
+  padding: 0;
+  border: 2px solid white;
+  transform: scale(1.5);
+  opacity: 1;
+  -webkit-animation: flash 1s;
+  animation: flash 1s;
+  box-shadow: 0 0 5px #333;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1200px) {
