@@ -1176,7 +1176,7 @@ td:last-child {
 --------------------------------------------------------------*/
 
 a {
-  color: #6b4127;
+  color: black;
   text-decoration: none;
 }
 
@@ -1348,7 +1348,7 @@ a:hover .nav-title,
 .navigation-top a {
   margin-left: 30px;
   font-size: 16px;
-  color: #9d5f38;
+  color: black;
   font-weight: 900;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
@@ -1965,7 +1965,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .page .panel-content .entry-title,
 .page-title,
 body.page:not(.twentyseventeen-front-page) .entry-title {
-  color: #6b4127;
+  color: black;
   font-size: 14px;
   font-size: 1rem;
   font-weight: 800;
