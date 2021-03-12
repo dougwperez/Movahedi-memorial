@@ -4588,7 +4588,7 @@ textarea {
   padding: 2.5px;
 }
 
-img:hover {
+#photos img:hover {
   padding: 0;
   border: 2px solid white;
   transform: scale(1.5);
