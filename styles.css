@@ -46,6 +46,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 18.0 SVGs Fallbacks
 19.0 Media Queries
 20.0 Print
+21.0 Contact Form
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -1333,11 +1334,16 @@ a:hover .nav-title,
 
 .navigation-top {
   background: #fff;
-  border-bottom: 1px solid #eee;
+
+  box-sizing: border-box;
   border-top: 1px solid #eee;
   font-size: 16px;
   font-size: 1rem;
   position: relative;
+  border-bottom: 1px solid #e1e2eb;
+  box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+  box-shadow: 5px 5px 5px -5px #333;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 .navigation-top .wrap {
@@ -1349,7 +1355,7 @@ a:hover .nav-title,
   margin-left: 30px;
   font-size: 16px;
   color: black;
-  font-weight: 900;
+  font-weight: 300;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
@@ -1647,8 +1653,8 @@ body.has-header-video .site-description {
   max-height: 80px;
   width: auto;
   /* OPTIONAL BORDER */
-  border-radius: 30px;
-  border: 3px #6b4127 outset;
+  border: 3px #e1e2eb outset;
+  box-shadow: 0 0 5px #333;
 }
 
 body.home.title-tagline-hidden.has-header-image .custom-logo-link img,
@@ -4461,4 +4467,91 @@ p > object:only-child {
       }
     }
   }
+}
+
+/*--------------------------------------------------------------
+1.0 Contact form
+--------------------------------------------------------------*/
+
+body {
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 41, 255, 0.02) 0%,
+    rgba(0, 41, 255, 0) 100%
+  );
+}
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0.3em;
+}
+span {
+  font-weight: 700;
+  color: #102a43;
+  line-height: 35px;
+  line-height: 2.5rem;
+  font-size: 12px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+input[type="submit"] {
+  background: #fc4366;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin-top: 1.3em;
+}
+
+.container {
+  width: 460px;
+  margin: 3.5em auto;
+}
+form {
+  background-color: #ffffff;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.required-star {
+  color: #fc4366;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 9px 20px;
+  border: 1px solid #e1e2eb;
+  background-color: #fff;
+  color: #102a43;
+  caret-color: #829ab1;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-size: 1rem;
+  line-height: 29px;
+  line-height: 2rem;
+  box-shadow: inset 0 2px 4px 0 rgba(206, 209, 224, 0.2);
+  border-radius: 3px;
+  line-height: 29px;
+  line-height: 2rem;
+}
+
+.centered-title {
+  margin-left: 500px;
 }
