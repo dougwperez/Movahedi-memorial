@@ -1639,7 +1639,9 @@ body.has-header-video .site-title a {
 body.has-header-image .site-description,
 body.has-header-video .site-description {
   color: #fff;
-  opacity: 0.8;
+  font-weight: 550;
+  font-size: 17px;
+  opacity: 1;
 }
 
 .custom-logo-link {
