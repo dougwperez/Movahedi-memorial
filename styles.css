@@ -4644,3 +4644,10 @@ textarea {
     column-count: 1;
   }
 }
+
+/* SHAKE AWAKE BLOG */
+
+#dib-posts {
+  margin-right: 15px;
+  margin-left: 15px;
+}
